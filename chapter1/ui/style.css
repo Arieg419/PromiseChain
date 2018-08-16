@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/AvenirLTStd-Roman.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #fff;
+    list-style: none;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex: 1 1 4;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C2237;
+}
+
+.two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #212943;
+}
+
+.three {
+    flex: 4;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Avenir;
+    color: #fff;
+    margin-top: 45px;
+    padding: 15px;
+    background-color: #4D5AFF;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Avenir;
+    margin-top: 45px;
+}
+
+.credentials-nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Avenir;
+    margin-top: 45px;
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.nav-item-txt {
+    padding-top: 5px;
+    padding-left: 3px;
+    color: #fff;
+}
+
+.profile-img {
+    height: 335px;
+    width: 330px;
+}
+
+.profile-divider {
+    border: 1px solid gray;
+}
+
+.profile-col {
+    padding-left: 20px;
+}
