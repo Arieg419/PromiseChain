@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="144px" viewBox="0 0 145 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PromiseMachine-Vote" transform="translate(-504.000000, -813.000000)">
+            <g id="Profile-Column" transform="translate(411.000000, 168.000000)">
+                <g id="Circle-graph" transform="translate(63.000000, 596.000000)">
+                    <g id="Graph" transform="translate(30.375000, 48.937500)">
+                        <g id="Circle" fill-rule="nonzero">
+                            <path d="M95.4624964,139.791636 C124.114138,129.876842 143.71875,102.808661 143.71875,72 C143.71875,32.3908281 111.609172,0.28125 72,0.28125 L72,9.84375 C106.327949,9.84375 134.15625,37.672051 134.15625,72 C134.15625,98.7016668 117.1639,122.163086 92.3353697,130.754906 L95.4624964,139.791636 Z" id="Oval-14" fill="#AC92EC"></path>
+                            <path d="M16.2133021,26.805483 C5.96699794,39.4719969 0.28125,55.2471168 0.28125,71.8803787 C0.28125,89.9765385 7.01591865,107.034677 18.9529364,120.146871 L26.024091,113.709466 C15.6747954,102.341303 9.84375,87.5719376 9.84375,71.8803787 C9.84375,57.4563436 14.7661542,43.7991225 23.6478701,32.819517 L16.2133021,26.805483 Z" id="Oval-14-Copy" fill="#EC7EBD"></path>
+                            <path d="M72.0381639,0.28125 C50.1021014,0.28125 29.7829784,10.1974055 16.251466,26.9251043 L23.686034,32.9391383 C35.4208787,18.4324859 53.0199957,9.84375 72.0381639,9.84375 L72.0381639,0.28125 Z" id="Oval-14-Copy-2" fill="#54C7EC"></path>
+                            <path d="M18.9644227,120.218702 C32.468418,135.052139 51.5526086,143.67096 72.0114863,143.67096 C80.0889088,143.67096 87.9905844,142.333448 95.4739827,139.743846 L92.346856,130.707116 C85.865953,132.949809 79.0209391,134.10846 72.0114863,134.10846 C54.2729487,134.10846 37.7459304,126.644512 26.0355773,113.781298 L18.9644227,120.218702 Z" id="Oval-14-Copy-3" fill="#F7923B"></path>
+                        </g>
+                        <text id="150" font-family="Avenir-Medium, Avenir" font-size="22.5" font-weight="400" line-spacing="28.125" fill="#FFFFFF">
+                            <tspan x="53.28125" y="74.7495462">150</tspan>
+                        </text>
+                        <text id="Total-conversions" font-family="Avenir-Book, Avenir" font-size="9" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="37.28025" y="89.4375">Total conversions</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

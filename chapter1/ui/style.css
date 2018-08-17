@@ -3,9 +3,18 @@
     src: url(fonts/AvenirLTStd-Roman.otf);
 }
 
+@font-face {
+    font-family: AvenirLight;
+    src: url(fonts/AvenirLTStd-Light.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
+} 
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 li {
@@ -48,6 +57,10 @@ li {
 
 .three {
     flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
 }
 
 .logo {
@@ -74,7 +87,7 @@ li {
     flex-direction: column;
     justify-content: center;
     font-family: Avenir;
-    margin-top: 45px;
+    margin-top: 15px;
 }
 
 .nav-icon {
@@ -90,15 +103,259 @@ li {
     color: #fff;
 }
 
+.ptop {
+    padding-top: 10px;
+}
+
 .profile-img {
-    height: 335px;
+    height: 285px;
     width: 330px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url('./imgs/Patryk.png');
+    font-family: Avenir;
+    font-size: 24px;
+}
+
+.profile-img-centered {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; 
+}
+
+.profile-graph {
+    height: 267px;
+    width: 159px;
+}
+
+.profile-graph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-divider {
-    border: 1px solid gray;
+    width: 290px;
+    border-top: 1px solid gray;
+    margin-top: 15px;
+}
+
+.profile-divider-first {
+    width: 290px;
+    border-top: 1px solid gray;
+    margin-top: 2px;
+}
+
+.profile-txt-first {
+    opacity: 0.5;
 }
 
 .profile-col {
+    display: flex;
+    flex-direction: column;
     padding-left: 20px;
+}
+
+.profile-col-graph {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.col-graph-header {
+    display: flex;
+    padding-left: 20px;
+    width: 270px;
+    justify-content: space-around;
+}
+
+.col-graph-legend {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-graph-legend-item-container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 270px;
+}
+
+.col-graph-legend-divider {
+        width: 290px;
+        border-top: 1px solid rgba(211, 211, 211, .5);
+        margin-top: 0px;
+}
+
+.col-graph-header-itm {
+    font-size: 16px;
+    font-family: AvenirLight;
+}
+
+.col-graph-legend-itm {
+    font-size: 10px;
+    font-family: AvenirLight;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.col-graph-legend-itm-clr {
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background-color: #FC6E51;
+}
+
+.purple {
+    background-color: #AC92EC;
+}
+
+.green {
+    background-color: #EC7EBD;
+}
+
+.blue {
+    background-color: #4FC1E9;
+}
+
+.orange {
+    background-color: #F7923B;
+}
+
+.col-graph-legend-txt {
+    margin-left: 10px;
+}
+
+.nav-item-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voter-header {
+    font-family: Avenir;
+    font-size: 68px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #4A4A4A;
+    margin-top: 60px;
+    width: 850px;
+}
+
+.voter-txt {
+    font-family: Avenir;
+    font-size: 36px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #818182;
+    margin-top: 20px;
+    width: 850px;
+}
+
+.voter-read-full {
+    font-family: Avenir;
+    font-size: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    color: #818182;
+    margin-top: 20px;
+    width: 250px;
+}
+
+.read-full-cta-btn {
+    height: 48px;
+    width: 48px;
+    margin-left: 90px;
+}
+
+.voter-functionality-container {
+    width: 526px;
+    height: 124px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid rgba(211, 211, 211, .5);
+    border-right: 1px solid rgba(211, 211, 211, .5);
+    border-bottom: 1px solid rgba(211, 211, 211, .5);
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.voter-functionality-header {
+    width: 526px;
+    height: 44px;
+    background-color: #AC92EC;
+    color: #fff;
+    font-family: Avenir;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voter-functionality-btn-box {
+    width: 526px;
+    height: 44px;
+    background-color: #fff;
+    color: #fff;
+    font-family: Avenir;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.voter-functionality-yes-btn {
+    background-color: #4FC1E9;
+    width: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.voter-functionality-no-btn {
+    background-color: #FC6E51;
+    width: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.voter-feedback-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.voter-feedback-checkmark {
+    height: 48px;
+    width: 48px;
+    background-image: url("imgs/check-circle-07.svg");
+}
+
+.voter-feedback-txt {
+    font-family: Avenir;
+    font-size: 48px;
+    color: #000;
+    margin-left: 30px;
+}
+
+.result-graph {
+    margin-top: 50px;
 }
